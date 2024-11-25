@@ -1,0 +1,165 @@
+
+.container {
+  padding: 30rpx;
+  background: #F0F8FF;
+  min-height: 100vh;
+}
+.repair-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.stat-card {
+  background: #fff;
+  padding: 20rpx;
+  border-radius: 12rpx;
+  width: 30%;
+  text-align: center;
+}
+.stat-number {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  display: block;
+}
+.stat-text {
+  font-size: 24rpx;
+  color: #666;
+  margin-top: 10rpx;
+}
+.repair-list {
+  margin-bottom: 100rpx;
+}
+.repair-item {
+  background: #fff;
+  border-radius: 12rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+}
+.repair-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.repair-type {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+.repair-status {
+  padding: 4rpx 12rpx;
+  border-radius: 6rpx;
+  font-size: 24rpx;
+}
+.repair-status.pending {
+  background: #FFF3E0;
+  color: #F57C00;
+}
+.repair-status.processing {
+  background: #E3F2FD;
+  color: #1976D2;
+}
+.repair-status.completed {
+  background: #E8F5E9;
+  color: #388E3C;
+}
+.repair-content {
+  margin-bottom: 20rpx;
+}
+.repair-house {
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+}
+.repair-desc {
+  font-size: 26rpx;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.repair-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+.repair-images image {
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+  border-radius: 8rpx;
+}
+.repair-info {
+  border-top: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+  padding: 20rpx 0;
+  margin-bottom: 20rpx;
+}
+.info-row {
+  display: flex;
+  margin-bottom: 10rpx;
+}
+.info-row:last-child {
+  margin-bottom: 0;
+}
+.label {
+  width: 140rpx;
+  font-size: 26rpx;
+  color: #666;
+}
+.value {
+  flex: 1;
+  font-size: 26rpx;
+  color: #333;
+}
+.repair-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24rpx;
+  gap: 20rpx;
+}
+.action-btn {
+  min-width: 160rpx;
+  height: 64rpx;
+  margin-left: 20rpx;
+  font-size: 26rpx;
+  padding: 0 36rpx;
+  border-radius: 32rpx;
+  background: linear-gradient(135deg, #409EFF, #3B87FF);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4rpx 12rpx rgba(64,158,255,0.3);
+  transition: all 0.3s ease;
+}
+.action-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 2rpx 6rpx rgba(64,158,255,0.2);
+}
+.action-btn image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 12rpx;
+}
+.add-btn {
+  position: fixed;
+  right: 40rpx;
+  bottom: 60rpx;
+  width: 120rpx;
+  height: 120rpx;
+  background: linear-gradient(135deg, #409EFF, #3B87FF);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6rpx 20rpx rgba(64,158,255,0.4);
+  transition: all 0.3s ease;
+}
+.add-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 4rpx 12rpx rgba(64,158,255,0.3);
+}
+.add-btn image {
+  width: 56rpx;
+  height: 56rpx;
+}

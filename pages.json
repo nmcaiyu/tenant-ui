@@ -1,0 +1,36 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enableScroll": true,
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/house/index"
+		},
+		{
+			"path": "pages/tenant/index"
+		},
+		{
+			"path": "pages/payment/index"
+		},
+		{
+			"path": "pages/repair/index"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^qiun-data-charts": "@qiun/ucharts"
+		}
+	}
+}
